@@ -2682,7 +2682,9 @@ mt-md-4 (max-width: 991.98px) {
   width:99.375%;
   width:-webkit-calc(100% - 2px); 
   width:calc(100% - 2px);
-  display: inline-block !important; 
+  display: block !important; 
+  margin: 0 auto !important;
+  margin-bottom: 10px !important;
 }
 
 #images-carousel div img {
